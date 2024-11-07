@@ -457,7 +457,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage {
         this.setInitialDisplayMode();
         this.createDisplay();
         OpenGlHelper.initializeTextures();
-        Verify.checkInfo();
+       // Verify.checkInfo();
         this.framebufferMc = new Framebuffer(this.displayWidth, this.displayHeight, true);
         this.framebufferMc.setFramebufferColor(0.0F, 0.0F, 0.0F, 0.0F);
         this.registerMetadataSerializers();
