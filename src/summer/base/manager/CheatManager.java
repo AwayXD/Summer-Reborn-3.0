@@ -47,6 +47,7 @@ public class CheatManager {
                 new FastChat(),
                 new TargetStrafe(),
                 new Step(),
+                new Cape(),
                 new Crosshair(),
                 new Chams(),
                 new Criticals(),

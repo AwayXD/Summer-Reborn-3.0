@@ -29,7 +29,7 @@ public class GuiCustomMainMenu extends GuiScreen implements GuiYesNoCallback {
     public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 //        RenderUtils.drawRect(0, 0, width, height, Color.BLACK.getRGB());
 
-        ResourceLocation background = new ResourceLocation("textures/menu/SummerBackGround.png");
+        ResourceLocation background = new ResourceLocation("client/images/mainmenubg.png");
         this.mc.getTextureManager().bindTexture(background);
         RenderUtils.drawImage(0, 0, 0, 0, width, height, width, height);
 
